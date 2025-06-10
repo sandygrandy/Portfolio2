@@ -1,19 +1,20 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home.tsx'
-import Project1 from './pages/SemesterProject.tsx'
-import Project2 from './pages/ExamProject.tsx'
-import Project3 from './pages/JSFrameworks.tsx'
+import Veloura from './pages/veloura.tsx'
+import JSFrameworks from './pages/JSF.tsx'
+import Biddy from './pages/Biddy.tsx'
 import './styles.css'
+import ScrollToTop from './components/ScrollToTop.tsx'
 
 function App() {
   return (
     <>
-
+      <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/project1" element={<Project1 />} />
-      <Route path="/project2" element={<Project2 />} />
-      <Route path="/project3" element={<Project3 />} />
+      <Route path="/veloura" element={<Veloura />} />
+      <Route path="/jsframeworks" element={<JSFrameworks />} />
+      <Route path="/biddy" element={<Biddy />} />
     </Routes>
     </>
   )
