@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home.tsx'
-import Veloura from './pages/veloura.tsx'
+import Veloura from './pages/Veloura.tsx'
 import JSFrameworks from './pages/JSF.tsx'
 import Biddy from './pages/Biddy.tsx'
 import './styles.css'
